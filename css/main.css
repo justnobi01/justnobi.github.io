@@ -5,7 +5,7 @@
 .header {
 	display: grid;
 	grid-template-columns: 40% 30% 30%; 
-	height: 80px;
+	height: 50px;
 	background-style:cover;
 	width: 100%;
 	background-color:#9FE6A0;
@@ -16,21 +16,21 @@
 	
 }
 .mmlg {
-	top:0.5vw;
+	top:0.3vw;
 	position: absolute;
 	left: 6vw;
 	
 }
 .menu {
 	float: right;
-	margin-top: 1.6vw;
-	font-size: 20px;
+	margin-top: 1vw;
+	font-size: 15px;
 	color: black;
 }
 .menu1 {
 	float: right;
-	margin-top: 1.6vw;
-	font-size: 20px;
+	margin-top: 1vw;
+	font-size: 15px;
 	color: black;
 	margin-left: 5vw;
 	 
@@ -58,14 +58,17 @@
 .sale {
 	position: relative;
 }
+.shop {
+	display:contents;
+	color: black;
+}
 h1 {
 	position: absolute;
 	bottom: 15vw;
 	font-size:8vw;
 	font-family:'DM Sans', sans-serif; 
-	right: 3.5vw;
+	right: 3vw;
 	letter-spacing: 0.5vw;
-	z-index: 1;
 }
 h2 {
 	position: absolute;
@@ -75,7 +78,7 @@ h2 {
 	right: 3vw;
 	letter-spacing: 0.5vw;
 	color: white;
-	border:thick solid;
+	text-shadow: 3px 3px 0 black;
 }
 .layout{
 	display:grid;
@@ -99,6 +102,10 @@ p {
 	font-size: 1vw;
 	font-family:'DM Sans', sans-serif; 
 	padding:1vw;
+	text-align: center;
+}
+p:hover {
+	text-decoration: underline;
 }
 .shopping {
 	text-align: center;
@@ -117,4 +124,92 @@ p {
 }
 .meo {
 	padding-top: 1vw;
+}
+.next {
+	display: grid;
+	grid-template-columns: 20% 40% 40%;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 4vw;
+}
+.img1 {
+	position: absolute;
+	right: 35vw;
+	top: 6vw;
+}
+h {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 8vw;
+	position: absolute;
+	text-align:right;
+	z-index:3;
+	bottom:5vw;
+    left: 2vw;
+	color: #FF7600;
+}
+p1 {
+	font-family: 'DM Sans', sans-serif;
+	position: absolute;
+	padding-left: 3vw;
+	top: 16vw;
+	text-align: justify;
+	width:25%;
+	height: 30%;
+	overflow: auto;
+}
+.after {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	position: relative;
+	padding:2vw;
+	grid-gap: 20px 20px;
+	padding-top:5vw;
+}
+.v1 {
+    position: relative;
+	border: thin solid;
+}
+.v1:hover {
+	box-shadow: 2px 2px 5px 2px gray;
+}
+.a1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 5vw;
+	text-align: right;
+	letter-spacing: 1vw;
+}
+.a3{
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+.a4 {
+	grid-column-start:1;
+	grid-column-end: 3;
+	
+	
+}
+h5 {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 8vw;
+	position: absolute;
+	text-align:right;
+	z-index:3;
+	top: 35vw;
+    right: 15vw;
+	color:#9FE6A0;
+	text-shadow: 3px 3px 0 black; 
+}
+.a2 {
+	text-align:center;
+}
+p3 {
+	font-family: 'DM Sans', sans-serif;
+	text-align: left;
+	position: absolute;
+	bottom: 4vw;
+	left: 25vw;
+	width:20vw;
+	background-color:#9FE6A0;
 }
