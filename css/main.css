@@ -164,6 +164,7 @@ p1 {
 	padding:2vw;
 	grid-gap: 20px 20px;
 	padding-top:5vw;
+	padding-bottom:4vw;
 }
 .v1 {
     position: relative;
@@ -234,6 +235,7 @@ input {
 	font-family: 'DM Sans', sans-serif;
 	font-size: 1vw;
 	width: 5vw;
+	height: 2.5vw;
 }
 h7 {
 	position: absolute;
