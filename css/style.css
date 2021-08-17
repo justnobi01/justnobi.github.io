@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: ok;
+}
+
+.col {
+  padding: 3vw;
+  float: left;
+ margin-top: 5vw;
+	text-align: center;
+	margin-left: 8vw;
+
+}
+.col .counter-number {
+  line-height: 48px;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+.col .counter-title {
+  color: white;
+	padding-top: 2.5vw;
+}
+.col .counter-title strong {
+  display: block;
+  font-size: 1.2rem;
+}
