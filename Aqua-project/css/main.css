@@ -282,7 +282,7 @@ h1 {
 	height: 600px;
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto;
-	margin-top: 12vw;
+	padding-top: 12vw;
 	position:relative;
 	margin-bottom:  10vh;
 
