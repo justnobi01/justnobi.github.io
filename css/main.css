@@ -282,9 +282,9 @@ h1 {
 	height: 600px;
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto;
-	padding-top: 12vw;
+	margin-top: 12vw;
 	position:relative;
-	padding-bottom:  20vh;
+	margin-bottom:  20vh;
 
 }
 .hinh1 {
@@ -502,7 +502,9 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 10vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	padding-top:10vh ;
 	padding-bottom: 10vh;
 }
 .item {
