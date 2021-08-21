@@ -330,7 +330,7 @@ h1 {
 	color: white;
 	opacity: 0;
 	z-index: 2;
-	margin-top: -12vh;
+	margin-top: -10vh;
 	
 }
 .hinh1:hover .lable {
@@ -366,7 +366,6 @@ h1 {
 .sanpham {
 	width: 100%;
 	height: 600px;
-	background: red;
 	display: flex;
 	align-items: center;
 	padding: 4vw;
@@ -374,7 +373,14 @@ h1 {
 }
 
 
-
+.team {
+	width: 100%;
+	height: 600px;
+	background-image: url("../images/Aqua-demo/services-5-565x401.jpg");
+	background-size: cover;
+	position: relative;
+	padding: 4vw;
+}
 
 
 
