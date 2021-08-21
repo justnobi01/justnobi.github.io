@@ -367,7 +367,7 @@ h1 {
 	height: 650px;
 	background-image:url("../images/Aqua-demo/services-1-565x401.jpg");
 	background-size: cover;
-	padding-top: 10vw;
+	padding-top: 15vh;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	padding-left: 4vw ;
