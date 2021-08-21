@@ -380,9 +380,32 @@ h1 {
 	background-size: cover;
 	position: relative;
 	padding: 4vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.team_img {
+	width: 20%;
+	height: 300px;
+	background: white;
+	border: 4px #FFE500 solid;
+	margin-right: 4vw;
+	margin-top: 10vh;
+	text-align: center;
 }
 
 
+.team_img:hover {
+	transition: .5s ease-in;
+	background-color: black;
+	color: white;
+}
+
+.team_img:hover img {
+	transform: scale(1.1);
+
+}
 
 /*form*/
 
