@@ -34,7 +34,7 @@
 /*main*/
 .banner {
 	height: 1480px;
-	background:url("../image/Mask Group.png")#F9F8FF;
+	background:url("../image/Mask Group.png"),#F9F8FF;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	
