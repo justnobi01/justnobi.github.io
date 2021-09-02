@@ -69,7 +69,8 @@
 	background:url("../image/bg 2.png"),#F9F8FF;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 1490px;
+	height: 880px;
+	padding-bottom: 180px;
 }
 .features{
 	width: 538px;
@@ -86,12 +87,44 @@
 	font-size:48px;
 	font-weight: 122%;
 }
-
+.content-sv p{
+	color: #595E64;
+}
 .icon-box {
 	background: white;
 	padding: 50px 23px 70px 41px;
 	box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
     border-radius: 15px;
+}
+.icon-box-2 .icon-sv img{
+	padding:13px;
+	background: #E7F2EF;
+	border-radius: 15px;
+}
+.icon-box-3 .icon-sv img{
+	padding:13px;
+	background: #FAF3D8;
+	border-radius: 15px;
+}
+.icon-box-4 .icon-sv img{
+	padding:13px;
+	background: #C0F2EF;
+	border-radius: 15px;
+}
+.icon-box-5 .icon-sv img{
+	padding:13px;
+	background: #EDE7F2;
+	border-radius: 15px;
+}
+.icon-box-6 .icon-sv img{
+	padding:13px;
+	background: #D8F0FA;
+	border-radius: 15px;
+}
+.icon-box .icon-sv img{
+	padding:13px;
+	background: #FFE7DB;
+	border-radius: 15px;
 }
 
 .icon-box-2 {
@@ -127,8 +160,65 @@
 	box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
     border-radius: 15px;
 }
+/*banner-3*/
+.banner-3{
+	height:1630px;
+	background:url("../image/bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.intro {
+	text-align: center;
+	padding:190px 0 32px 0;
+}
+.intro span {
+	text-transform: uppercase;
+	font-weight: 700;
+    font-size: 12px;
+	letter-spacing: 0.15em;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
+.intro h1{
+	font-weight: 500;
+    font-size: 48px;
+	color:white;
+}
+.intro p{
+	font-weight: 400;
+    font-size: 20px;
+	line-height: 34px;
+	color:white;
+}
+.number-tag{
+	display:flex;	
+	background:white;
+	padding: 40px 65px 30px 40px;
+	box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
+    border-radius: 15px;
+}
+.tag-items{
+	display: flex;
+}
 
+.tag-ct {
+	padding-left:69px;
+	padding-top:80px;
+	
+}
+.tag-ct h1{
+	color: #3B3E43;
+	font-size: 22px;
+	font-weight: 700;
+}
 
-
-
-
+.tag-ct p{
+	color:#595E64;
+    font-size: 16px;
+	font-weight: 400;
+}
+.box .icon img{
+	padding:13px;
+	border-radius: 15px;
+	background:#DAE6FF;
+}
