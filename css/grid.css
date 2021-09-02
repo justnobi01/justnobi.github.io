@@ -190,6 +190,9 @@ h1,h2,h3,h4,h5,h6 {
 .px-3{
 	padding: 0 12px;
 }
+.px-4{
+	padding: 0 16px;
+}
 
 /*-------Margin-------*/
 .m-1{
@@ -242,6 +245,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .ml-1{
 	margin-left: 4px;
+}
+.ml-7{
+	margin-left: 28px;
 }
 .ml-8{
 	margin-left: 32px;
