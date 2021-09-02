@@ -1,19 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Playfair Display', serif;
-	font-style:italic;
+	font-family: 'DM Sans', sans-serif;
 }
 .container{
 	width: 1440px;
@@ -237,4 +236,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .mx-auto{
 	margin: 0 auto;
+}
+.align-self-ct{
+	align-self: center;
+}
+.text-right{
+	text-align: right;
 }
