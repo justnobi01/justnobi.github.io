@@ -289,13 +289,10 @@
 	background:url("../image/base.png");
 }
 .working{
-	align-items: center;
-	justify-content: center;
-	height:100%;
 	
 }
 .content-work{
-	padding:150px 0;
+	padding:220px 0;
 }
 
 .content-work span{
@@ -322,4 +319,7 @@
 }
 .content-work a{
 	margin-top:50px;
+}
+.total-time{
+	padding:150px 0;
 }
