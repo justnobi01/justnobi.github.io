@@ -317,10 +317,44 @@
 	font-weight:20px ;
 	color:white;
 	width:408px;
+	margin: 24px 0 50px 0;
 }
-.content-work a{
-	margin-top:50px;
-}
+
 .total-time{
 	padding-top:150px;
+}
+/*footer*/
+
+.footer{
+	height:240px;
+	background:black;
+}
+.menu-ftr{
+	display: flex;
+	justify-content: center;
+}
+.menu-ftr a{
+	text-decoration: none;
+	color: white;
+	margin: 0 16px;
+	font-size: 16px;
+	font-weight:500;
+}
+.footer-1{
+	height:100%;
+	align-items: center;
+	padding-top:90px;
+}
+.icon-ftr img{
+	padding:0 10px;
+}
+.footer-2{
+	padding-top:30px;
+}
+.footer-2 a{
+	color:#ffffff;
+	font-size:15px;
+	opacity: 0.8;
+	font-weight: 400;
+	text-decoration: none;
 }
