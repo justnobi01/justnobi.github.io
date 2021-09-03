@@ -222,3 +222,37 @@
 	border-radius: 15px;
 	background:#DAE6FF;
 }
+.box .icon-2 img{
+	padding:13px;
+	border-radius: 15px;
+	background: #E9E5FF;
+
+;
+}
+.box .icon-3 img{
+	padding:13px;
+	border-radius: 15px;
+	background:#CEEDFF;
+}
+
+/*banner-4*/
+
+.banner-4 {
+	height: 700px;
+}
+
+.brand-intro{
+	text-align: center;
+}
+.brand-clients{
+	display:flex;
+	
+}
+.brand-clients img{
+
+}
+
+.brand{
+	padding:180px 370px;
+	background:#f9f8ff;
+}
