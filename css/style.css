@@ -238,7 +238,6 @@
 /*banner-4*/
 
 .banner-4 {
-	width:100%;
 	background:#f9f8ff;
 }
 
@@ -263,7 +262,6 @@
 }
 
 .brand-clients{
-	width:900px;
 	display:flex;
 	height:100%;
 	flex-wrap: wrap;
@@ -272,6 +270,7 @@
 	
 }
 .brand-clients img{
+	padding:0 50px;
 }
 
 
