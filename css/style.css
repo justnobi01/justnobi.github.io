@@ -162,7 +162,7 @@
 }
 /*banner-3*/
 .banner-3{
-	height:1630px;
+	height:1830px;
 	background:url("../image/bg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -239,18 +239,41 @@
 
 .banner-4 {
 	height: 700px;
+	width:100%;
 }
 
 .brand-intro{
 	text-align: center;
+	width:897px;
 }
+.brand-intro span{
+	letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #00A077;
+    opacity: 0.5;
+	font-size:12px;
+	font-weight: 700; 
+	
+}
+.brand-intro h1{
+    color: #3B3E43;
+	font-size:48px;
+	font-weight: 500; 
+	
+}
+
 .brand-clients{
+	width:900px;
 	display:flex;
+	height:100%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 	
 }
 .brand-clients img{
-
 }
+
 
 .brand{
 	padding:180px 370px;
