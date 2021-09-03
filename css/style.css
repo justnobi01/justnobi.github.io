@@ -293,6 +293,7 @@
 }
 .content-work{
 	padding:220px 0;
+	height:100%;
 }
 
 .content-work span{
@@ -321,5 +322,5 @@
 	margin-top:50px;
 }
 .total-time{
-	padding:150px 0;
+	padding-top:150px;
 }
