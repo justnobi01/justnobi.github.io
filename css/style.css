@@ -167,7 +167,7 @@
 	height:1830px;
 	background:url("../image/bg.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 .intro {
 	text-align: center;
