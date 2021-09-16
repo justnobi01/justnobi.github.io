@@ -167,6 +167,29 @@ html {
 /*banner-3*/
 .banner-3 {
 }
+.design {
+	text-align:right;
+	align-items: center;
+}
+.design img:hover{
+	transform: rotate(10deg);
+	transition: .2s linear;
+}
+.title h1 {
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 70px;
+	color:white;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black ;
+	
+}
+.title h1:hover {
+	color:#ff6701;
+	text-shadow:none;
+	transition: .5s linear;
+}
+
+
 
 
 
