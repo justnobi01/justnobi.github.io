@@ -172,8 +172,11 @@ html {
 	align-items: center;
 }
 .design img:hover{
-	transform: rotate(10deg);
 	transition: .2s linear;
+	transform: scale(1.2);
+}
+.title span {
+	display:none;
 }
 .title h1 {
 	font-weight: 900;
@@ -188,7 +191,14 @@ html {
 	text-shadow:none;
 	transition: .5s linear;
 }
-
+.title h1:hover span{
+	display: inline;
+}
+/*slide*/
+.carousel:hover {
+	transform: scale(1.2);
+	overflow:hidden;
+}
 
 
 
