@@ -34,10 +34,8 @@ html {
 	list-style:none;
 }
 .menu li:hover {
-	color: #FF6701;
-}
-.menu a:hover {
-	color: #FF6701;
+	border-bottom: 2px solid white;
+	color: white;
 }
 .logo img {
 	padding: 0 10px;
@@ -118,22 +116,15 @@ html {
 	z-index:10;
 }
 .text h1:hover {
-	color:#FF6701;
+	color:white;
 	text-shadow:none;
 	transition: .5s linear;
 	align-self: flex-end;
-}
-.text-letter img:hover {
-	transform: rotate(20deg);
-	transition: .5s linear;
 }
 .icon {
 	font-size: 50px;
 	float:right;
 	align-items:center;	
-}
-.icon-nxt:hover {
-	color:#FF6701;
 }
 .text-letter {
 	position: relative;

@@ -93,7 +93,7 @@ html {
 	text-transform: uppercase;
 }
 .into:hover {
-	border-bottom: 4px solid black;
+	border-bottom: 5px solid #FF6701;
 	color:black;
 }
 /*banner-1*/

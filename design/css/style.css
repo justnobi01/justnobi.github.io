@@ -24,7 +24,7 @@ html {
 }
 .menu a {
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	padding: 0 25px;
@@ -118,22 +118,15 @@ html {
 	z-index:10;
 }
 .text h1:hover {
-	color:#FF6701;
+	color:white;
 	text-shadow:none;
 	transition: .5s linear;
 	align-self: flex-end;
-}
-.text-letter img:hover {
-	transform: rotate(20deg);
-	transition: .5s linear;
 }
 .icon {
 	font-size: 50px;
 	float:right;
 	align-items:center;	
-}
-.icon-nxt:hover {
-	color:#FF6701;
 }
 .text-letter {
 	position: relative;
@@ -173,8 +166,6 @@ html {
 /*banner-2*/
 /*banner-3*/
 .banner-3 {
-	background:red;
-	height:500px;
 }
 
 
