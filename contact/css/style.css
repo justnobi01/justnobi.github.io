@@ -171,6 +171,9 @@ html {
 	height:500px;
 }
 /*banner-5*/
+.banner-5 {
+	background-color:white;
+}
 .text p {
 	color:black;
 	font-weight:500;
