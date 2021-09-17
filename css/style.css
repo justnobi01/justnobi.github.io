@@ -9,6 +9,7 @@
 }
 html {
   scroll-behavior: smooth;
+	overflow-y:hidden;
 }
 .header {
 	padding: 15px 0;
