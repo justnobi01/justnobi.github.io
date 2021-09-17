@@ -24,7 +24,7 @@ html {
 }
 .menu a {
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	padding: 0 25px;
@@ -34,8 +34,10 @@ html {
 	list-style:none;
 }
 .menu li:hover {
-	border-bottom: 2px solid white;
-	color: white;
+	color: #FF6701;
+}
+.menu a:hover {
+	color: #FF6701;
 }
 .logo img {
 	padding: 0 10px;
@@ -106,25 +108,26 @@ html {
 	align-items:center;	
 }
 .text h1{
-	color:black;
-	text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white ;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
-	font-size: 60px;
+	font-size: 80px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	z-index:10;
+	color:#FF6701;
 }
-.text h1:hover {
-	color:white;
-	text-shadow:none;
+
+.text-letter img:hover {
+	transform: rotate(20deg);
 	transition: .5s linear;
-	align-self: flex-end;
 }
 .icon {
 	font-size: 50px;
 	float:right;
 	align-items:center;	
+}
+.icon-nxt:hover {
+	color:#FF6701;
 }
 .text-letter {
 	position: relative;
@@ -167,6 +170,26 @@ html {
 	background:red;
 	height:500px;
 }
+/*banner-5*/
+.text p {
+	color:black;
+	font-weight:500;
+	font-size:20px;
+}
+.icon-ft span{
+	font-size: 30px;
+}
+.icon-ft p {
+	font-weight:500;
+	font-size:15px;
+	align-items: flex-start;
+}
+.icon-ft {
+	
+			
+}	
+	
+/*banner-5*/
 
 
 
