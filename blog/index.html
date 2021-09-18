@@ -13,18 +13,20 @@
 	<section class="banner-4 pb-5">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-4">
+					<div class="col-4 col-xs-8">
 						<div class="logo py-4">
 						   <a href="../index.html" target="_self"><img src="img/logo-2.png" alt=""></a>
 					    </div>
 					</div>
-					<div class="col-8">
-					    <div class="menu">
+					<div class="col-8 col-xs-4">
+					    <div class="menu" id="myNav">
 							<a href="../about/index.html"><li>About</li></a>
 							<a href="../design/index.html"><li>Design</li></a>
 							<a href="index.html"><li>Blogs</li></a>
 							<a href="../contact/index.html"><li>Contact</li></a>
+							<span onClick="closeNav()" class="close-nav" style="display:none;">X</span>
 						</div>
+						<span class="nav-mobile text-right text-end align-self-end" onClick="openNav()"><ion-icon name="menu-sharp" style= "display:none;"></ion-icon></span>
 					</div>
 				</div>
 			</div>
@@ -47,7 +49,7 @@
 <!--		container-->
 		<div class="container">
 			<div class="row gallery g-3">
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="row g-3">
 						<div class="col-12">
 							<img src="img/Tumblr-2.jpg" alt="" class="w-100">
@@ -67,7 +69,7 @@
 					</div>
 				</div>
 <!--				col-3-->
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="row g-3">
 						<div class="col-12">
 							<img src="img/samo (basquait) Poster by Loui  Jover.jpg" alt="" class="w-100">
@@ -88,7 +90,7 @@
 				</div>
 <!--				col-3-->
 				
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="row g-3">
 						<div class="col-12">
 							<img src="img/200w (2).webp" alt="" class="w-100">
@@ -109,7 +111,7 @@
 				</div>
 <!--				col-3-->
 				
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="row g-3">
 						<div class="col-12">
 							<img src="img/Silo Theatre 2013 Season Posters.jpg" alt="" class="w-100">
@@ -147,5 +149,17 @@
 <!--icon------->
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>	
+<!--menu bar-->
+	<script>
+		/* Open when someone clicks on the span element */
+		function openNav() {
+		  document.getElementById("myNav").style.display = "flex";
+		}
+
+		/* Close when someone clicks on the "x" symbol inside the overlay */
+		function closeNav() {
+		  document.getElementById("myNav").style.display = "none";
+		}
+	</script>
 </body>
 </html>

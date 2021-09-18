@@ -13,32 +13,34 @@
 	<section class="banner-3" id="3">
 	    <div class="container-fluid">
 				<div class="row">
-					<div class="col-4">
+					<div class="col-4 col-xs-8">
 						<div class="logo py-4">
 						   <a href="../index.html" target="_self"><img src="img/log0.png" alt=""></a>
 					    </div>
 					</div>
-					<div class="col-8">
-					    <div class="menu">
+					<div class="col-8 col-xs-4">
+					    <div class="menu" id="myNav">
 							<a href="../about/index.html"><li>About</li></a>
 							<a href="index.html"><li>Design</li></a>
 							<a href="../blog/index.html"><li>Blogs</li></a>
 							<a href="../contact/index.html"><li>Contact</li></a>
+							<span onClick="closeNav()" class="close-nav" style="display:none;">X</span>
 						</div>
+						<span class="nav-mobile text-right text-end align-self-end" onClick="openNav()" style="display: none;"><ion-icon name="menu-sharp"></ion-icon></span>
 					</div>
 				</div>
 			</div>
 		
 		<div class="container">
 			<div class="row pt-5 pb-4">
-				<div class="col-8 align-self-center">
+				<div class="col-md-8 col-sm-12 col-xs-12 align-self-center">
 					<div class="title">
 						<h1><span style="font-size:45px;">1.</span> Những thứ linh tinh của justnobi</h1>
 						
 					</div>
 				</div>
 				
-				<div class="col-4">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
@@ -68,13 +70,13 @@
 <!--				col-4/1-->
 			</div>
 			<div class="row py-4">
-				<div class="col-8 align-self-center">
+				<div class="col-md-8 col-sm-12 col-xs-12 align-self-center">
 					<div class="title">
 						<h1><span style="font-size:45px;">2.</span> coming soon:<br>kas ốp lưng</h1>
 					</div>
 				</div>
 				
-				<div class="col-4">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div id="carouselExampleControls-1" class="carousel slide" data-bs-ride="carousel">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
@@ -101,14 +103,14 @@
 <!--				col-4/2-->
 			</div>
 			<div class="row py-4">
-				<div class="col-8 align-self-center">
+				<div class="col-md-8 col-sm-12 col-xs-12 align-self-center">
 					<div class="title">
 						<h1><span style="font-size:45px;">3.</span> đồ án sem1: <br>xôi bờm</h1>
 						
 					</div>
 				</div>
 				
-				<div class="col-4">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div id="carouselExampleControls-2" class="carousel slide" data-bs-ride="carousel">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
@@ -137,14 +139,14 @@
 <!--			row-->
 			
 			<div class="row py-4">
-				<div class="col-8 align-self-center">
+				<div class="col-md-8 col-sm-12 col-xs-12 align-self-center">
 					<div class="title">
 						<h1><span style="font-size:45px;">4.</span> Tạp chí: <br>the neighbor</h1>
 						
 					</div>
 				</div>
 				
-				<div class="col-4">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div id="carouselExampleControls-3" class="carousel slide" data-bs-ride="carousel">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
@@ -176,14 +178,14 @@
 <!--			row-->
 			
 			<div class="row py-4">
-				<div class="col-8 align-self-center">
+				<div class="col-md-8 col-sm-12 col-xs-12 align-self-center">
 					<div class="title">
 						<h1><span style="font-size:45px;">5.</span> Nhiếp ảnh: <br>Giày<br>thượng đình</h1>
 						
 					</div>
 				</div>
 				
-				<div class="col-4">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div id="carouselExampleControls-4" class="carousel slide" data-bs-ride="carousel">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
@@ -252,5 +254,17 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 </script>
+	<!--menu bar-->
+	<script>
+		/* Open when someone clicks on the span element */
+		function openNav() {
+		  document.getElementById("myNav").style.display = "flex";
+		}
+
+		/* Close when someone clicks on the "x" symbol inside the overlay */
+		function closeNav() {
+		  document.getElementById("myNav").style.display = "none";
+		}
+	</script>
 </body>
 </html>

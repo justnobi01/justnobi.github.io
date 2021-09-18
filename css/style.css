@@ -50,6 +50,32 @@ html {
 	font-weight:500;
 }
 /*banner-1*/
+@media only screen and (max-width:415px){
+	.logo {
+		width:100% !important;
+	}
+	.logo img {
+		width:50%;
+	}
+	.social-icon {
+		display: none !important;
+	}
+	.start h1{
+		font-size: 2rem !important; 
+	}
+	.start a{
+		font-size: 2rem !important;
+	}
+	.start span {
+		font-size: 2rem !important;
+	}
+	.into:hover {
+		border-bottom: 3px solid #FF6701;
+		color:black;
+	}
+	
+	
+}
 .banner-1{
 	background:white;
 	height:100vh;
