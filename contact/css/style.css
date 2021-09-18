@@ -191,6 +191,59 @@ html {
 	
 			
 }	
+@media only screen 
+	and (max-width : 599px) {
+		.logo img {
+		   width:100% !important;
+	   }
+		.nav-mobile {
+		   display:block !important;
+		   cursor: pointer;
+		   color:black !important;
+		   font-size:30px;
+		   padding: 20px 10px 0;
+	   }
+		.menu {
+		   position: fixed;
+		   display:none;
+		   flex-direction: column;
+		   background: black ;
+		   left:0;
+		   top:0;
+		   width:100%;
+		   height:100vh;
+		   z-index:100;
+
+	   }
+	   .menu a{
+		   padding: 1rem 0;
+		   font-size: 1rem;
+		   color:white !important;
+		   
+	   }
+	   .close-nav {
+		   display: block!important;
+		   font-size: 1rem;
+		   font-weight: 700;
+		   color:white;
+		   padding: 1rem 0;
+		   cursor: pointer;
+		   
+	   }
+		.text h1 {
+			font-size: 3rem;
+		}
+		.text p {
+			font-size: 1rem;
+		}
+		.text span {
+			font-size: 1.5rem!important;
+		}
+		.icon-ft {
+			text-align: center!important;
+			font-size: 10px!important;
+		}
+}
 	
 /*banner-5*/
 

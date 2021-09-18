@@ -16,16 +16,19 @@
 				<div class="row">
 					<div class="col-4">
 						<div class="logo py-4">
-						   <a href="../index.html" target="_self"><img src="img/log0.png" alt=""></a>
+						   <a href="../index.html" target="_self">
+							   <img src="img/log0.png" alt=""></a>
 					    </div>
 					</div>
 					<div class="col-8">
-					    <div class="menu">
+					    <div class="menu" id="myNav">
 							<a href="../about/index.html"><li>About</li></a>
 							<a href="../design/index.html"><li>Design</li></a>
 							<a href="../blog/index.html"><li>Blogs</li></a>
 							<a href="index.html"><li>Contact</li></a>
+							<span onClick="closeNav()" class="close-nav" style="display:none;">X</span>
 						</div>
+						<span class="nav-mobile text-right text-end align-self-end" onClick="openNav()" style="display: none;"><ion-icon name="menu-sharp"></ion-icon></span>
 					</div>
 				</div>
 			</div>
@@ -50,21 +53,22 @@
 		
 		<div class="container-fluid py-5">
 			<div class="row px-3">
-				<div class="col-3">
+				<div class="col-md-3 col-sm-12 col-xs-12">
 					<div class="icon-ft" height="100%">
-						<p>facebook.com/nhp.1002/</p>
+						<p>Facebook: facebook.com/nhp.1002/</p>
 					</div>
 				</div>
-				<div class="col-3 text-center"><div class="icon-ft">
-						<p>instagram.com/justnobi_zzz/</p>
+				<div class="col-md-3 col-sm-12 col-xs-12 text-center">
+					<div class="icon-ft">
+						<p>Instagram: instagram.com/justnobi_zzz/</p>
 					</div>
 				</div>
-				<div class="col-3 text-end"><div class="icon-ft">
-						<p>justnobizzz@gmail.com</p>
+				<div class="col-md-3 col-sm-12 col-xs-12 text-end"><div class="icon-ft">
+						<p>Email: justnobizzz@gmail.com</p>
 					</div>
 				</div>
-				<div class="col-3 text-end"><div class="icon-ft">
-						<p>twitter.com/nhp1002</p>
+				<div class="col-md-3 col-sm-12 col-xs-12 text-end"><div class="icon-ft">
+						<p>Twitter: twitter.com/nhp1002</p>
 					</div>
 				</div>
 			</div>
@@ -84,6 +88,17 @@
 <!--icon------->
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--menu bar-->
+	<script>
+		/* Open when someone clicks on the span element */
+		function openNav() {
+		  document.getElementById("myNav").style.display = "flex";
+		}
 
+		/* Close when someone clicks on the "x" symbol inside the overlay */
+		function closeNav() {
+		  document.getElementById("myNav").style.display = "none";
+		}
+	</script>
 </body>
 </html>
