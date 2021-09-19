@@ -259,7 +259,6 @@ html {
 	   }
 		.gallery img {
 			transform: none!important;
-			width:80% !important;
 			padding: 0 3rem !important;
 		}
 }
