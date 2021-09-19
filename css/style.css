@@ -60,14 +60,17 @@ html {
 	.social-icon {
 		display: none !important;
 	}
+	.start {
+		padding: 5rem 0 !important;
+	}
 	.start h1{
-		font-size: 4rem !important; 
+		font-size: 4.5rem !important; 
 	}
 	.start a{
-		font-size: 4rem !important;
+		font-size: 4.5rem !important;
 	}
 	.start span {
-		font-size: 4rem !important;
+		font-size: 4.5rem !important;
 	}
 	.into:hover {
 		border-bottom: 3px solid #FF6701;
