@@ -61,13 +61,13 @@ html {
 		display: none !important;
 	}
 	.start h1{
-		font-size: 3rem !important; 
+		font-size: 4rem !important; 
 	}
 	.start a{
-		font-size: 3rem !important;
+		font-size: 4rem !important;
 	}
 	.start span {
-		font-size: 3rem !important;
+		font-size: 4rem !important;
 	}
 	.into:hover {
 		border-bottom: 3px solid #FF6701;

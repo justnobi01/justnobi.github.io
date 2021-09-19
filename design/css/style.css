@@ -174,7 +174,7 @@ html {
 		   display:block !important;
 		   cursor: pointer;
 		   color:black !important;
-		   font-size:2rem;
+		   font-size:3rem;
 		   padding: 20px 10px 0;
 	   }
 		.icon {
@@ -197,13 +197,13 @@ html {
 	   }
 	   .menu a{
 		   padding: 1rem 0;
-		   font-size: 1rem;
+		   font-size: 3rem;
 		   color:white !important;
 		   
 	   }
 	   .close-nav {
 		   display: block!important;
-		   font-size: 1rem;
+		   font-size: 3rem;
 		   font-weight: 700;
 		   color:white;
 		   padding: 1rem 0;
@@ -217,7 +217,7 @@ html {
 			text-align: center;
 		}
 		.title h1 {
-			font-size: 2.5rem !important;
+			font-size: 4rem !important;
 			text-shadow: none !important;
 			color: #FF6701 !important;
 		}
@@ -225,7 +225,7 @@ html {
 			hover: none !important;
 		}
 		.title span {
-			font-size:1.5rem !important;
+			font-size:3rem !important;
 			display: block !important;
 		}
 		.carousel {
@@ -233,7 +233,8 @@ html {
 			padding: 0 1rem !important;
 		}
 		.carousel img {
-			
+			height: 80% !important;
+			padding: 0 3rem!important;
 		}
 }
 .banner-3 {
