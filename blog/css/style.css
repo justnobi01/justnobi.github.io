@@ -205,6 +205,10 @@ html {
 	   .col-xs-4{
 		   width:33.33% !important;
 	   }
+		.text-icon {
+			height: 100% !important;
+			align-items: center;
+		}
 	   .menu {
 		   position: fixed;
 		   display:none;
@@ -256,6 +260,7 @@ html {
 		.gallery img {
 			transform: none!important;
 			width:80% !important;
+			padding: 0 3rem !important;
 		}
 }
 .banner-4 {

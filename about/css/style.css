@@ -166,16 +166,20 @@ html {
 		   text-shadow: none!important;
 	   }
 	   .icon {
-		  height: 100% !important;
 		  font-size:3rem !important;
-		  align-items: center!important;
-		  justify-content: center !important;
 	   }
 	   .col-xs-8{
 		   width:66.66% !important;
 	   }
 	   .col-xs-4{
 		   width:33.33% !important;
+	   }
+	   .text-icon {
+		   align-items: center !important;
+		   height:100% !important;
+	   }
+	   .picture {
+		   text-align: center !important;
 	   }
 	   .menu {
 		   position: fixed;
@@ -204,7 +208,7 @@ html {
 		   
 	   }
 	   .introduce {
-		   line-height: 2.5rem !important;
+		   line-height: 3rem !important;
 	   }
 }
 .banner-2{
@@ -237,7 +241,7 @@ html {
 .icon {
 	font-size: 50px;
 	float:right;
-	align-items:center;	
+	align-items:flex-end;	
 }
 .icon-nxt:hover {
 	color:#FF6701;
